@@ -1,0 +1,36 @@
+.flowerPricingCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 80%;
+  .flowerPricingCard {
+    width: 335px;
+    height: 430px;
+    margin: 30px 20px;
+    color: #1b745e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 335px;
+      height: 335px;
+    }
+    &_name {
+      font-size: 19px;
+      padding: 20px 0px 10px 0px;
+    }
+    &_price {
+      font-weight: 500;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #d8e3d5;
+      border: none;
+      color: #1b745e;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.footer_container {
+  max-width: 100%;
+  background-color: #e0ecdc;
+  height: 300px;
+  .footer {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    p {
+      color: #1b745e;
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+    li {
+      color: #1b745e;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 8px 0px;
+    }
+    &_logo {
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 80px;
+        height: 35px;
+      }
+      .footer_input {
+        position: relative;
+        width: 500px;
+
+        input {
+          width: 500px;
+          background-color: transparent;
+          border: none;
+          outline: none;
+          border-bottom: 1px solid #1b745e;
+          padding: 15px;
+        }
+        button {
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 100px;
+          height: 46px;
+          border: none;
+          background-color: #c4d5c0;
+          color: #1b745e;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.ourTeamSection_container {
+    max-width: 100%;
+    padding: 50px 0px;
+    .ourTeamSection {
+      color: #1b745e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 0px;
+      h3 {
+        font-size: 42px;
+        font-weight: 400;
+        padding-top: 20px;
+      }
+    }
+  }

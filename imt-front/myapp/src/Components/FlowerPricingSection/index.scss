@@ -1,0 +1,20 @@
+.flowerPricingSection_container{
+    max-width: 100%;
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1-1-1085x595.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    .flowerPricingSection{
+        color: #1B745E;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0px;
+        h3{
+            font-size: 42px;
+            font-weight: 400;
+            padding-top: 20px;
+        }
+    }
+}
